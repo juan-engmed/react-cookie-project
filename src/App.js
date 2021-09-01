@@ -34,6 +34,8 @@ class App extends Component {
         <img src={biscoito} className='img' />
         <Botao nome='Abrir Biscoito' acaoBtn={this.quebraBiscoito} />
         <h3 className='textoFrase'>{this.state.textoFrase}</h3>
+        <p>Desenvolvido em React por Juan Oliveira</p>
+        <p>Hospedado em Netlify</p>
       </div>
 
 
